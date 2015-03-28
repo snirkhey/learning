@@ -17,7 +17,7 @@ void print_array(int* a,int n)
 void bubble_sort(int * a,int size)
 {
 	int i=0;
-	for(i=0;i<size-2;i++)
+	for(i=0;i<size-1;i++)
 	{
                 print_array(a,size);
 		int j;
